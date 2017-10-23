@@ -37,10 +37,6 @@ public class Trello_test {
         Actions action = new Actions(driver);
         action.dragAndDrop(source, target).perform();
 
-
-        driver.findElement(By.cssSelector(".member-initials")).click();
-        driver.findElement(By.cssSelector(".js-logout")).click();
-        driver.quit();
     }
 
     @AfterMethod
